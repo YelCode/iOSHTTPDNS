@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+platform :ios, '9.0'
+#use_frameworks!
+inhibit_all_warnings!
+#by StayStep email:
+#podfile版本设置 http://www.tuicool.com/articles/zInI3eY
+#podfile语法参考 http://www.jianshu.com/p/8af475c4f717
+#都使用具体版本 避免版本差异导致项目的稳定性 后面附上Github地址 以便查看文档
+#还有不建议直接改pod源代码 升级过程中将导致代码不见 造成问题 最好是继承或者再封装 以应对pod项目的更改
+
+target 'DNSDemo' do
+    
+    
+end
+
